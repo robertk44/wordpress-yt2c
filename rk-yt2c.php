@@ -37,7 +37,7 @@ function rk_yt2c_the_content($content)
         <a href="$0" target="_blank" class="button">Video auf YouTube öffnen (neues Fenster/Tab)</a>
         </div>';
     // search for youtube links
-    $content = preg_replace('/https?\:\/\/(www.)?youtube.com\/watch\?v\=([A-z0-9]+)/i', $template, $content);
+    $content = preg_replace('/https?\:\/\/(www.)?youtube.com\/watch\?v\=([A-z0-9-_]+)/i', $template, $content);
 
     return $content;
 }
