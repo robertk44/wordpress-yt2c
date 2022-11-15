@@ -3,6 +3,16 @@ YouTube Two-Click-Solution Wordpress Plugin
 
 # Changelog
 
+## v0.5
+
+Checkbox, um Entscheidung zu merken;
+zusätzliche Checkbox, um Zustimmung jederzeit widerrufen zu können
+
+### Geplante Updates:
+
+- Einstellungsseite für Auswahl "als (nocookie) iframe einbinden" / "Link anzeigen"
+- Shortcode
+
 ## v0.4
 
 YouTube-Videos werden - nach Bestätigung - datensparsam eingebettet (über youtube-nocookie.com)
