@@ -53,6 +53,7 @@ function rk_yt2c_the_content($content)
                             <p>YouTube legt auch in weiteren Cookies nicht-personenbezogene Nutzungsinformationen ab.
                             Möchten Sie dies verhindern, so müssen Sie das Speichern von Cookies im Browser blockieren.</p>
                             <p>Weitere Informationen zum Datenschutz bei YouTube finden Sie in der Datenschutzerklärung des Anbieters unter: <a href="https://www.google.de/intl/de/policies/privacy/" rel="noopener" target="_blank">https://www.google.de/intl/de/policies/privacy/</a></p>
+                            <p><label class="rk-yt2c-ytvideo__remember-label"><input type="checkbox" name="rk-yt2c-remember" value="1" class="rk-yt2c-ytvideo__remember">Entscheidung merken und YouTube-Videos immer anzeigen</label></p>
                         </div>
                     </div>
                     <div class="rk-yt2c-ytvideo__video">
@@ -60,6 +61,9 @@ function rk_yt2c_the_content($content)
                             frameborder="0" allow="accelerometer;
                             encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
+                </div>
+                <div class="rk-yt2c-ytvideo__footer">
+                    <p><label class="rk-yt2c-ytvideo__show-always-label"><input type="checkbox" name="rk-yt2c-show-always" value="1" class="rk-yt2c-ytvideo__show-always">YouTube-Videos immer anzeigen</label></p>
                 </div>
             </div>';
     }

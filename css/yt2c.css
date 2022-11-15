@@ -33,3 +33,20 @@
     width: 100%;
     height: 100%;
 }
+.rk-yt2c-ytvideo__remember-label,
+.rk-yt2c-ytvideo__show-always-label {
+    cursor: pointer;
+}
+.rk-yt2c-ytvideo__show-always-label {
+    font-size: 0.875em;
+}
+.rk-yt2c-ytvideo__footer {
+    display: none;
+}
+.rk-yt2c-ytvideo--enabled .rk-yt2c-ytvideo__placeholder {
+    display: none;
+}
+.rk-yt2c-ytvideo--enabled .rk-yt2c-ytvideo__footer,
+.rk-yt2c-ytvideo--enabled .rk-yt2c-ytvideo__video {
+    display: block;
+}
