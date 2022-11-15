@@ -3,6 +3,14 @@ YouTube Two-Click-Solution Wordpress Plugin
 
 # Changelog
 
+## v0.3
+
+YouTube URL in oembed_html Hook mit \<tt> tag umschließen, um wptexturize Filter zu umgehen (macht z.B. aus zwei Bindestrichen einen Gedankenstrich)
+
+## v0.2
+
+Zusätzlich zu Buchstaben und Zahlen auch Binde- und Unterstrich in Video-ID berücksichtigen
+
 ## v0.1
 
 Basis-Variante: YouTube-Videos werden nicht mehr eingebettet sondern stattdessen ein Link angezeigt, der das Video auf YouTube in einem neuen Fenster/Tab öffnet.
