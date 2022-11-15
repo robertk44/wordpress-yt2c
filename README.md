@@ -3,6 +3,17 @@ YouTube Two-Click-Solution Wordpress Plugin
 
 # Changelog
 
+## v0.4
+
+YouTube-Videos werden - nach Bestätigung - datensparsam eingebettet (über youtube-nocookie.com)
+Video-iframe wird responsiv eingebunden
+
+### Geplante Updates:
+
+- Checkbox "immer anzeigen" (dieses Cookie ist technisch notwendig, damit auch weiterhin kein Cookie-Banner oder besonderer Hinweistext notwendig)
+- Einstellungsseite für Auswahl "als (nocookie) iframe einbinden" / "Link anzeigen"
+- Shortcode
+
 ## v0.3
 
 YouTube URL in oembed_html Hook mit \<tt> tag umschließen, um wptexturize Filter zu umgehen (macht z.B. aus zwei Bindestrichen einen Gedankenstrich)
